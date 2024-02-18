@@ -1,0 +1,91 @@
+Floors:: 10
+Lifts available:: 2
+Lifts are placed every 5 floors
+Total available lifts:: 2
+Invoke passengers...
+Creating 5 requesters for lift...
+
+
+
+A new passenger is invoking...
+Requester requesting a lift for P0 from 7th floor for direction  UP
+Getting one from available lifts
+Available Lifts are 0,5,
+Chosen nearest lift is at:: 5
+P0--6
+P0--7
+Destination floor chosen is 8 from current floor 7 by P0
+P0--8
+P0 is leaving the lift
+P0s lift is added to available lifts
+
+
+
+A new passenger is invoking...
+Requester requesting a lift for P1 from 9th floor for direction  DOWN
+Getting one from available lifts
+Available Lifts are 0,8,
+Chosen nearest lift is at:: 8
+P1--9
+Destination floor chosen is 4 from current floor 9 by P1
+P1--8
+P1--7
+P1--6
+
+
+
+A new passenger is invoking...
+Requester requesting a lift for P2 from 0th floor for direction  UP
+Getting one from available lifts
+Available Lifts are 0,
+Chosen nearest lift is at:: 0
+Destination floor chosen is 5 from current floor 0 by P2
+P1--5
+P2--1
+P1--4
+P1 is leaving the lift
+P1s lift is added to available lifts
+P2--2
+P2--3
+P2--4
+
+
+
+A new passenger is invoking...
+Requester requesting a lift for P3 from 0th floor for direction  UP
+Getting one from available lifts
+Available Lifts are 4,
+Chosen nearest lift is at:: 4
+P2--5
+P2 is leaving the lift
+P2s lift is added to available lifts
+P3--3
+P3--2
+P3--1
+P3--0
+Destination floor chosen is 3 from current floor 0 by P3
+
+
+
+A new passenger is invoking...
+Requester requesting a lift for P4 from 7th floor for direction  DOWN
+Getting one from available lifts
+Available Lifts are 5,
+Chosen nearest lift is at:: 5
+P3--1
+P4--6
+P3--2
+P4--7
+Destination floor chosen is 2 from current floor 7 by P4
+P3--3
+P3 is leaving the lift
+P3s lift is added to available lifts
+P4--6
+P4--5
+P4--4
+P4--3
+P4--2
+P4 is leaving the lift
+P4s lift is added to available lifts
+
+Process finished with exit code 0
